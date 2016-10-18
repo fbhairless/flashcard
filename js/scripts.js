@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $(".click1").click(function() {
-    $("#JSinfo").fadeToggle();
+    $("#JSinfo").slideToggle(330);
   });
 
   $(".click2").click(function() {
